@@ -1,0 +1,18 @@
+/*
+primary: #2e7d32
+p-light: #60ad5e
+p-dark: #005005
+secondary: ec407a
+s-light: #ff77a9
+s-dark: #b4004e
+*/
+
+body {
+    background-color: #2e7d32;
+    font-family: font-family: 'Oswald', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: font-family: 'Oswald', sans-serif;
+}
