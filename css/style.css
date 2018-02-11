@@ -7,12 +7,40 @@ s-light: #ff77a9
 s-dark: #b4004e
 */
 
+/* global styles */
 body {
     background-color: #2e7d32;
-    font-family: font-family: 'Oswald', sans-serif;
+    font-family: font-family: 'Roboto Mono', monospace;;
 }
 
 h1,
 h2 {
-    font-family: font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-family: font-family: 'Roboto Mono', monospace;;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+li {
+    display: inline-block;
+    font-size: 36px;
+}
+
+a {
+    font-size: 36px;
+}
+
+/* header */
+header li {
+    margin: 0 10px;
+}
+header li:first :first-of-type {
+    margin-left: 0;
+}
+
+/* footer styles*/
+footer a {
+    font-size: 64px;
 }
